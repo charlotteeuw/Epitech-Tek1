@@ -16,12 +16,12 @@ Welcome to my Epitech projects repository! This repository contains the projects
 
 Here's a list of projects included in this repository:
 
-1. [My_ls](https://github.com/EpitechPromo2028/B-PSU-100-MLH-1-1-myls-charlotte.weston): Recode the Unix-like operating system command
-2. [Setting Up](https://github.com/EpitechPromo2028/B-CPE-110-MLH-1-1-settingup-charlotte.weston): Develop algorithm to find the largest possible square on a board while avoiding obstacles
-3. [My_hunter](https://github.com/EpitechPromo2028/B-MUL-100-MLH-1-1-myhunter-charlotte.weston): Remake the Duck Hunt game
-4. [Sokoban](https://github.com/EpitechPromo2028/B-PSU-100-MLH-1-1-sokoban-charlotte.weston): Remake the Sokoban game in the terminal
-5. [Organized](https://github.com/EpitechPromo2028/B-CPE-110-MLH-1-1-organized-charlotte.weston): First project using linked lists to store and sort hardwares quickly and efficiently
-6. [My_radar](https://github.com/EpitechPromo2028/B-MUL-100-MLH-1-1-myradar-charlotte.weston): Collision detection between a large number of flying planes within a 2D space
+1. [My_ls](https://github.com/charlotteeuw/Epitech-Tek1/tree/main/myls): Recode the Unix-like operating system command
+2. [Setting Up](https://github.com/charlotteeuw/Epitech-Tek1/tree/main/settingup): Develop algorithm to find the largest possible square on a board while avoiding obstacles
+3. [My_hunter](https://github.com/charlotteeuw/Epitech-Tek1/tree/main/myhunter): Remake the Duck Hunt game
+4. [Sokoban](https://github.com/charlotteeuw/Epitech-Tek1/tree/main/my_sokoban): Remake the Sokoban game in the terminal
+5. [Organized](https://github.com/charlotteeuw/Epitech-Tek1/tree/main/my_organized): First project using linked lists to store and sort hardwares quickly and efficiently
+6. [My_radar](https://github.com/charlotteeuw/Epitech-Tek1/tree/main/myradar): Collision detection between a large number of flying planes within a 2D space
 
 Each project directory contains its own README with specific details, documentation, and instructions.
 
