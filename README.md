@@ -18,7 +18,7 @@ Welcome to my Epitech projects repository! This repository contains the projects
 
 Here's a list of projects included in this repository:
 
-1. [My_ls](./project1/): The goal of this project was to recode the Unix-like operating system command
+1. [My_ls](https://github.com/EpitechPromo2028/B-PSU-100-MLH-1-1-myls-charlotte.weston): The goal of this project was to recode the Unix-like operating system command
 2. [My_hunter](./project2/): The goal of this project was to remake the Duck Hunt game
 3. ...
 
