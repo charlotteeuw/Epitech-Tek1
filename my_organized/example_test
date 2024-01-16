@@ -1,0 +1,9 @@
+add DEVICE a, WIRE b, SENSOR c
+add WIRE d, WIRE e
+disp
+sort NAME -r
+del 0, 1, 3
+add PROCESSOR f, ACTUATOR g
+sort TYPE
+disp
+exit
