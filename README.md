@@ -39,3 +39,18 @@ To explore and run any of the projects, follow these steps:
 
     ```bash
     cd epitech-proj
+
+## How to test the projects
+
+To explore and run any of the projects, follow these steps:
+
+1. Use the Makefile:
+
+    ```bash
+    make re && make clean
+    ```
+
+2. Execute the binary:
+
+    ```bash
+    ./binary_name
