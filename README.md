@@ -1,6 +1,6 @@
 # Epitech Projects Repository
 
-Welcome to my Epitech projects repository! This repository contains the projects I completed during my time at Epitech, showcasing my skills and experiences in computer science and software engineering.
+Welcome to my Epitech projects repository! This repository contains the projects I completed during my first year at Epitech, showcasing my skills and experiences in computer science and software engineering.
 
 ## Table of Contents
 
