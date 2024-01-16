@@ -1,0 +1,47 @@
+/*
+** EPITECH PROJECT, 2023
+** $IN_GAME
+** File description:
+** Function to hsow game window
+*/
+
+#include "../../include/hunter.h"
+
+void game_window(sfRenderWindow *window, sfEvent event)
+{
+    sfIntRect rect;
+    rect.top = 0;
+    rect.left = 0;
+    rect.width = 110;
+    rect.height = 110;
+    
+    sfTexture *sky_t = sfTexture_createFromFile("./content/sky.png", NULL);
+    sfSprite *sky_s = sfSprite_create();
+    sfVector2f sky_scale = {2, 2};
+
+    sfSprite_setTexture(sky_s, sky_t, sfTrue);
+    sfSprite_setScale(sky_s, sky_scale);
+
+    sfTexture *bird_t = sfTexture_createFromFile("./content/bird_spritesheet.png", &rect);
+    sfSprite *bird_s = sfSprite_create();
+    sfVector2f bird_pos = {0, 300};
+    sfVector2f bird_scale = {1, 1};
+    sfVector2f bird_origin = {50, 50};
+
+    sfSprite_setTexture(bird_s, bird_t, sfTrue);
+    sfSprite_setScale(bird_s, bird_scale);
+    sfSprite_setPosition(bird_s, bird_pos);
+    sfSprite_setOrigin(bird_s, bird_origin);
+    
+    while (sfRenderWindow_isOpen(window)) {
+        while (sfRenderWindow_pollEvent(window, &event)) {
+            if (event.type == sfEvtClosed) {
+                sfRenderWindow_close(window);
+            }
+        }
+        sfRenderWindow_clear(window, sfWhite);
+        sfRenderWindow_drawSprite(window, sky_s, NULL);
+        sfRenderWindow_drawSprite(window, bird_s, NULL);
+        sfRenderWindow_display(window);
+    }
+}

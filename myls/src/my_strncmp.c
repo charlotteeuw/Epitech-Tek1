@@ -1,0 +1,35 @@
+/*
+** EPITECH PROJECT, 2023
+** $MY_STRNCMP
+** File description:
+** Compares the first n bytes of str1 and str2
+*/
+
+#include <stdio.h>
+#include <unistd.h>
+#include "../include/my.h"
+
+int my_strncmp(char const *s1, char const *s2, int n)
+{
+    if (s1[n - 1] < s2[n - 1]) {
+        return -(s2[n - 1] - s1[n - 1]);
+    }
+    if (s2[n - 1] < s1[n - 1]) {
+        return +(s1[n - 1] - s2[n - 1]);
+    }
+    if (s1[n - 1] == s2[n - 1]) {
+        return 0;
+    }
+}
+
+/*int my_strncmp(char const *s1, char const *s2, int n)
+{
+    int i = 0;
+
+    while (s1[i] == s2[i] && s1[i] != '\0' && s2[i] != '\0' && i < n) {
+        i++;
+    }
+    if (i == n)
+        return (s1[i - 1] - s2[i - 1]);
+    return s1[i] - s2[i];
+    }*/

@@ -1,0 +1,52 @@
+/*
+** EPITECH PROJECT, 2023
+** $MAIN
+** File description:
+** Main for my_hunter
+*/
+
+#include "../include/hunter.h"
+
+void click_mouse(sfRenderWindow *window, sfEevent even)
+{
+    
+
+int main(void)
+{
+    sfVideoMode mode = {1920, 1080, 32};
+    sfRenderWindow* window;
+    sfEvent event;
+    
+    sfTexture *texture = sfTexture_createFromFile("./content/bg.png", NULL);
+    sfSprite* sprite = sfSprite_create();
+
+    sfTexture *texture2 = sfTexture_createFromFile("./content/start.png", NULL);
+    sfSprite *button = sfSprite_create();
+    
+    sfVector2f scale = {1.12, 1.12};
+    sfVector2f scale_button = {10, 10};
+    sfVector2f pos_button = {800, 500};
+
+    sfSprite_setTexture(sprite, texture, sfTrue);
+    sfSprite_setScale(sprite, scale);
+
+    sfSprite_setTexture(button, texture2, sfTrue);
+    sfSprite_setScale(button, scale);
+    sfSprite_setPosition(button, pos_button)window = sfRenderWindow_create(mode, "My Hunter", sfResize | sfClose, NULL);
+    while (sfRenderWindow_isOpen(window)) {
+        while (sfRenderWindow_pollEvent(window, &event)) {
+            if (event.type == sfEvtClosed)
+                sfRenderWindow_close(window);
+        }
+        sfVector2i mouse = sfMouse_getPosition(window);
+
+        
+        sfRenderWindow_clear(window, sfWhite);
+        sfRenderWindow_drawSprite(window, sprite, NULL);
+        sfRenderWindow_drawSprite(window, button, NULL);
+        sfRenderWindow_display(window);
+
+        click_mouse(window, event);
+    }
+    return 0;
+}

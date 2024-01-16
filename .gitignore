@@ -1,0 +1,14 @@
+unit_tests
+vgcore.*
+.vscode
+*.txt
+*.out
+*.log
+*.gc*
+my_radar
+organized
+my_ls
+setting_up
+sokoban
+*.a
+*.o
