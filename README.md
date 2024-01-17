@@ -32,7 +32,7 @@ To explore and run any of the projects, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/epitech-projects.git
+    git clone git@github.com:charlotteeuw/Epitech-Tek1.git
     ```
 
 2. Navigate to the project directory:
