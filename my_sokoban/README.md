@@ -6,10 +6,6 @@ Remake the sokoban game in the terminal
 
 - [About](#about)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## About
 
